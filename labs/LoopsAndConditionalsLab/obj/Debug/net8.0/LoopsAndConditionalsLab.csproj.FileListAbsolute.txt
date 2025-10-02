@@ -1,0 +1,15 @@
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\LoopsAndConditionalsLab\bin\Debug\net8.0\LoopsAndConditionalsLab.exe
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\LoopsAndConditionalsLab\bin\Debug\net8.0\LoopsAndConditionalsLab.deps.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\LoopsAndConditionalsLab\bin\Debug\net8.0\LoopsAndConditionalsLab.runtimeconfig.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\LoopsAndConditionalsLab\bin\Debug\net8.0\LoopsAndConditionalsLab.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\LoopsAndConditionalsLab\bin\Debug\net8.0\LoopsAndConditionalsLab.pdb
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\LoopsAndConditionalsLab\obj\Debug\net8.0\LoopsAndConditionalsLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\LoopsAndConditionalsLab\obj\Debug\net8.0\LoopsAndConditionalsLab.AssemblyInfoInputs.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\LoopsAndConditionalsLab\obj\Debug\net8.0\LoopsAndConditionalsLab.AssemblyInfo.cs
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\LoopsAndConditionalsLab\obj\Debug\net8.0\LoopsAndConditionalsLab.csproj.CoreCompileInputs.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\LoopsAndConditionalsLab\obj\Debug\net8.0\LoopsAndConditionalsLab.sourcelink.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\LoopsAndConditionalsLab\obj\Debug\net8.0\LoopsAndConditionalsLab.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\LoopsAndConditionalsLab\obj\Debug\net8.0\refint\LoopsAndConditionalsLab.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\LoopsAndConditionalsLab\obj\Debug\net8.0\LoopsAndConditionalsLab.pdb
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\LoopsAndConditionalsLab\obj\Debug\net8.0\LoopsAndConditionalsLab.genruntimeconfig.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\LoopsAndConditionalsLab\obj\Debug\net8.0\ref\LoopsAndConditionalsLab.dll

@@ -1,0 +1,15 @@
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\week-2-foundations\Week2Foundations\obj\Debug\net8.0\Week2Foundations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\week-2-foundations\Week2Foundations\obj\Debug\net8.0\Week2Foundations.AssemblyInfoInputs.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\week-2-foundations\Week2Foundations\obj\Debug\net8.0\Week2Foundations.AssemblyInfo.cs
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\week-2-foundations\Week2Foundations\obj\Debug\net8.0\Week2Foundations.csproj.CoreCompileInputs.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\week-2-foundations\Week2Foundations\obj\Debug\net8.0\Week2Foundations.sourcelink.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\week-2-foundations\Week2Foundations\bin\Debug\net8.0\Week2Foundations.exe
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\week-2-foundations\Week2Foundations\bin\Debug\net8.0\Week2Foundations.deps.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\week-2-foundations\Week2Foundations\bin\Debug\net8.0\Week2Foundations.runtimeconfig.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\week-2-foundations\Week2Foundations\bin\Debug\net8.0\Week2Foundations.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\week-2-foundations\Week2Foundations\bin\Debug\net8.0\Week2Foundations.pdb
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\week-2-foundations\Week2Foundations\obj\Debug\net8.0\Week2Foundations.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\week-2-foundations\Week2Foundations\obj\Debug\net8.0\refint\Week2Foundations.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\week-2-foundations\Week2Foundations\obj\Debug\net8.0\Week2Foundations.pdb
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\week-2-foundations\Week2Foundations\obj\Debug\net8.0\Week2Foundations.genruntimeconfig.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\week-2-foundations\Week2Foundations\obj\Debug\net8.0\ref\Week2Foundations.dll

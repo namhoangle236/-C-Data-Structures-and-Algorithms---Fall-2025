@@ -13,7 +13,7 @@ class Program
             Console.Clear();
             Console.WriteLine("==== Main Menu ====");
             Console.WriteLine("1. Play Tic Tac Toe");
-            Console.WriteLine("2. Run Another Program");
+            Console.WriteLine("2. Run Book Catalog Sorting and lookup");
             Console.WriteLine("0. Exit");
             Console.Write("Select an option: ");
 
@@ -25,7 +25,7 @@ class Program
                     BoardGame.Run(); // call your TicTacToe class
                     break;
                 case "2":
-                    AnotherProgram.Run(); // placeholder for later
+                    BookCatalog.Run(); // placeholder for later
                     break;
                 case "0":
                     return;

@@ -1,0 +1,5 @@
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\week-3-arrays-sorting\Week3ArraysSorting\obj\Debug\net8.0\Week3ArraysSorting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\week-3-arrays-sorting\Week3ArraysSorting\obj\Debug\net8.0\Week3ArraysSorting.AssemblyInfoInputs.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\week-3-arrays-sorting\Week3ArraysSorting\obj\Debug\net8.0\Week3ArraysSorting.AssemblyInfo.cs
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\week-3-arrays-sorting\Week3ArraysSorting\obj\Debug\net8.0\Week3ArraysSorting.csproj.CoreCompileInputs.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\week-3-arrays-sorting\Week3ArraysSorting\obj\Debug\net8.0\Week3ArraysSorting.sourcelink.json

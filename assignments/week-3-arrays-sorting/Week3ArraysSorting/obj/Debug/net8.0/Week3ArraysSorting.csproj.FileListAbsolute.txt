@@ -1,0 +1,15 @@
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\week-3-arrays-sorting\Week3ArraysSorting\obj\Debug\net8.0\Week3ArraysSorting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\week-3-arrays-sorting\Week3ArraysSorting\obj\Debug\net8.0\Week3ArraysSorting.AssemblyInfoInputs.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\week-3-arrays-sorting\Week3ArraysSorting\obj\Debug\net8.0\Week3ArraysSorting.AssemblyInfo.cs
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\week-3-arrays-sorting\Week3ArraysSorting\obj\Debug\net8.0\Week3ArraysSorting.csproj.CoreCompileInputs.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\week-3-arrays-sorting\Week3ArraysSorting\obj\Debug\net8.0\Week3ArraysSorting.sourcelink.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\week-3-arrays-sorting\Week3ArraysSorting\bin\Debug\net8.0\Week3ArraysSorting.exe
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\week-3-arrays-sorting\Week3ArraysSorting\bin\Debug\net8.0\Week3ArraysSorting.deps.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\week-3-arrays-sorting\Week3ArraysSorting\bin\Debug\net8.0\Week3ArraysSorting.runtimeconfig.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\week-3-arrays-sorting\Week3ArraysSorting\bin\Debug\net8.0\Week3ArraysSorting.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\week-3-arrays-sorting\Week3ArraysSorting\bin\Debug\net8.0\Week3ArraysSorting.pdb
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\week-3-arrays-sorting\Week3ArraysSorting\obj\Debug\net8.0\Week3ArraysSorting.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\week-3-arrays-sorting\Week3ArraysSorting\obj\Debug\net8.0\refint\Week3ArraysSorting.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\week-3-arrays-sorting\Week3ArraysSorting\obj\Debug\net8.0\Week3ArraysSorting.pdb
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\week-3-arrays-sorting\Week3ArraysSorting\obj\Debug\net8.0\Week3ArraysSorting.genruntimeconfig.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\week-3-arrays-sorting\Week3ArraysSorting\obj\Debug\net8.0\ref\Week3ArraysSorting.dll

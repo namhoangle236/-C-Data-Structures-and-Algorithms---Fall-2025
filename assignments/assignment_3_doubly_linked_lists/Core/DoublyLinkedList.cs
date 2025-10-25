@@ -298,13 +298,22 @@ namespace Week4DoublyLinkedLists.Core
         /// <returns>Array containing all list elements</returns>
         public T[] ToArray()
         {
-            // TODO: Step 4c - Implement array conversion
-            // 1. Create array of size count
-            // 2. Traverse the list and copy elements to array
-            // 3. Return the populated array
-            // 📖 See: https://www.geeksforgeeks.org/dsa/traversal-in-doubly-linked-list/
-            
-            throw new NotImplementedException("TODO: Step 4c - Implement ToArray method");
+            // Step 1: Create an array of size 'count'
+            T[] array = new T[count];
+
+            // Step 2: Traverse from head and copy data
+            Node<T>? current = head;
+            int index = 0;
+
+            while (current != null)
+            {
+                array[index] = current.Data;
+                current = current.Next;
+                index++;
+            }
+
+            // Step 3: Return the populated array
+            return array;
         }
         
         #endregion
@@ -521,7 +530,7 @@ namespace Week4DoublyLinkedLists.Core
         /// </summary>
         /// <param name="index">Index to get node at (0-based)</param>
         /// <returns>Node at the specified index</returns>
-        private Node<T> GetNodeAt(int index)
+        internal Node<T> GetNodeAt(int index)
         {
             if (index < 0 || index >= count)
                 throw new ArgumentOutOfRangeException(nameof(index), "Index out of range.");

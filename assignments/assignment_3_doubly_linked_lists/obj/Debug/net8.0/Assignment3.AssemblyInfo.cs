@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DoublyLinkedListAssignment")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bce3e733ab4403073bfbc4ff1f0ed666829a4ab8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6affae93095cc680b8b35d86e0405cc63e2405ce")]
 [assembly: System.Reflection.AssemblyProductAttribute("DoublyLinkedListAssignment")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DoublyLinkedListAssignment")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

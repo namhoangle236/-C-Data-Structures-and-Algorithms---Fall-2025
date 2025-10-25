@@ -1,0 +1,15 @@
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_3_doubly_linked_lists\bin\Debug\net8.0\DoublyLinkedListAssignment.exe
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_3_doubly_linked_lists\bin\Debug\net8.0\DoublyLinkedListAssignment.deps.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_3_doubly_linked_lists\bin\Debug\net8.0\DoublyLinkedListAssignment.runtimeconfig.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_3_doubly_linked_lists\bin\Debug\net8.0\DoublyLinkedListAssignment.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_3_doubly_linked_lists\bin\Debug\net8.0\DoublyLinkedListAssignment.pdb
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_3_doubly_linked_lists\obj\Debug\net8.0\Assignment3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_3_doubly_linked_lists\obj\Debug\net8.0\Assignment3.AssemblyInfoInputs.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_3_doubly_linked_lists\obj\Debug\net8.0\Assignment3.AssemblyInfo.cs
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_3_doubly_linked_lists\obj\Debug\net8.0\Assignment3.csproj.CoreCompileInputs.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_3_doubly_linked_lists\obj\Debug\net8.0\Assignment3.sourcelink.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_3_doubly_linked_lists\obj\Debug\net8.0\DoublyLinkedListAssignment.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_3_doubly_linked_lists\obj\Debug\net8.0\refint\DoublyLinkedListAssignment.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_3_doubly_linked_lists\obj\Debug\net8.0\DoublyLinkedListAssignment.pdb
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_3_doubly_linked_lists\obj\Debug\net8.0\Assignment3.genruntimeconfig.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_3_doubly_linked_lists\obj\Debug\net8.0\ref\DoublyLinkedListAssignment.dll

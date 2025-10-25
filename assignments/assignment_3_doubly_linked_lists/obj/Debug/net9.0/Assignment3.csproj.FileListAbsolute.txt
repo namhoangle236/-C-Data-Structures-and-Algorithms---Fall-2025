@@ -1,0 +1,15 @@
+/Users/zak_b_teaching/dev260_fall_2025/assignments/assignment_3_doubly_linked_lists/bin/Debug/net9.0/DoublyLinkedListAssignment
+/Users/zak_b_teaching/dev260_fall_2025/assignments/assignment_3_doubly_linked_lists/bin/Debug/net9.0/DoublyLinkedListAssignment.deps.json
+/Users/zak_b_teaching/dev260_fall_2025/assignments/assignment_3_doubly_linked_lists/bin/Debug/net9.0/DoublyLinkedListAssignment.runtimeconfig.json
+/Users/zak_b_teaching/dev260_fall_2025/assignments/assignment_3_doubly_linked_lists/bin/Debug/net9.0/DoublyLinkedListAssignment.dll
+/Users/zak_b_teaching/dev260_fall_2025/assignments/assignment_3_doubly_linked_lists/bin/Debug/net9.0/DoublyLinkedListAssignment.pdb
+/Users/zak_b_teaching/dev260_fall_2025/assignments/assignment_3_doubly_linked_lists/obj/Debug/net9.0/Assignment3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/zak_b_teaching/dev260_fall_2025/assignments/assignment_3_doubly_linked_lists/obj/Debug/net9.0/Assignment3.AssemblyInfoInputs.cache
+/Users/zak_b_teaching/dev260_fall_2025/assignments/assignment_3_doubly_linked_lists/obj/Debug/net9.0/Assignment3.AssemblyInfo.cs
+/Users/zak_b_teaching/dev260_fall_2025/assignments/assignment_3_doubly_linked_lists/obj/Debug/net9.0/Assignment3.csproj.CoreCompileInputs.cache
+/Users/zak_b_teaching/dev260_fall_2025/assignments/assignment_3_doubly_linked_lists/obj/Debug/net9.0/Assignment3.sourcelink.json
+/Users/zak_b_teaching/dev260_fall_2025/assignments/assignment_3_doubly_linked_lists/obj/Debug/net9.0/DoublyLinkedListAssignment.dll
+/Users/zak_b_teaching/dev260_fall_2025/assignments/assignment_3_doubly_linked_lists/obj/Debug/net9.0/refint/DoublyLinkedListAssignment.dll
+/Users/zak_b_teaching/dev260_fall_2025/assignments/assignment_3_doubly_linked_lists/obj/Debug/net9.0/DoublyLinkedListAssignment.pdb
+/Users/zak_b_teaching/dev260_fall_2025/assignments/assignment_3_doubly_linked_lists/obj/Debug/net9.0/Assignment3.genruntimeconfig.cache
+/Users/zak_b_teaching/dev260_fall_2025/assignments/assignment_3_doubly_linked_lists/obj/Debug/net9.0/ref/DoublyLinkedListAssignment.dll

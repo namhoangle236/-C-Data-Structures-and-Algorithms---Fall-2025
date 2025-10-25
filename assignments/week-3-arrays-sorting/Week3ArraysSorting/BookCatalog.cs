@@ -22,8 +22,8 @@ class Book
 // ----------------------------
 class BookCatalog
 {
-    private static int[,] startIndex;
-    private static int[,] endIndex;
+    private static int[,] startIndex;   // index for start positions, containing more 2nd array
+    private static int[,] endIndex;    // index for end positions, containing books for each 2nd array
     private static List<Book> books;
 
     // ----------------------------

@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/zak_b_teaching/dev260_fall_2025/assignments/assignment_5_stacks/Assignment5.csproj": {}
+    "C:\\Users\\namho\\Desktop\\school\\DEV-260 Data Structure and Algorithm\\assignments\\assignment_5_stacks\\Assignment5.csproj": {}
   },
   "projects": {
-    "/Users/zak_b_teaching/dev260_fall_2025/assignments/assignment_5_stacks/Assignment5.csproj": {
+    "C:\\Users\\namho\\Desktop\\school\\DEV-260 Data Structure and Algorithm\\assignments\\assignment_5_stacks\\Assignment5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/zak_b_teaching/dev260_fall_2025/assignments/assignment_5_stacks/Assignment5.csproj",
+        "projectUniqueName": "C:\\Users\\namho\\Desktop\\school\\DEV-260 Data Structure and Algorithm\\assignments\\assignment_5_stacks\\Assignment5.csproj",
         "projectName": "Assignment5",
-        "projectPath": "/Users/zak_b_teaching/dev260_fall_2025/assignments/assignment_5_stacks/Assignment5.csproj",
-        "packagesPath": "/Users/zak_b_teaching/.nuget/packages/",
-        "outputPath": "/Users/zak_b_teaching/dev260_fall_2025/assignments/assignment_5_stacks/obj/",
+        "projectPath": "C:\\Users\\namho\\Desktop\\school\\DEV-260 Data Structure and Algorithm\\assignments\\assignment_5_stacks\\Assignment5.csproj",
+        "packagesPath": "C:\\Users\\namho\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\namho\\Desktop\\school\\DEV-260 Data Structure and Algorithm\\assignments\\assignment_5_stacks\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/zak_b_teaching/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\namho\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -37,12 +37,11 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -59,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

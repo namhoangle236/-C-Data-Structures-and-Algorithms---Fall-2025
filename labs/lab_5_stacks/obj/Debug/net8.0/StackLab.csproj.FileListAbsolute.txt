@@ -1,0 +1,15 @@
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\lab_5_stacks\bin\Debug\net8.0\StackLab.exe
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\lab_5_stacks\bin\Debug\net8.0\StackLab.deps.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\lab_5_stacks\bin\Debug\net8.0\StackLab.runtimeconfig.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\lab_5_stacks\bin\Debug\net8.0\StackLab.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\lab_5_stacks\bin\Debug\net8.0\StackLab.pdb
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\lab_5_stacks\obj\Debug\net8.0\StackLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\lab_5_stacks\obj\Debug\net8.0\StackLab.AssemblyInfoInputs.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\lab_5_stacks\obj\Debug\net8.0\StackLab.AssemblyInfo.cs
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\lab_5_stacks\obj\Debug\net8.0\StackLab.csproj.CoreCompileInputs.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\lab_5_stacks\obj\Debug\net8.0\StackLab.sourcelink.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\lab_5_stacks\obj\Debug\net8.0\StackLab.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\lab_5_stacks\obj\Debug\net8.0\refint\StackLab.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\lab_5_stacks\obj\Debug\net8.0\StackLab.pdb
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\lab_5_stacks\obj\Debug\net8.0\StackLab.genruntimeconfig.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\lab_5_stacks\obj\Debug\net8.0\ref\StackLab.dll

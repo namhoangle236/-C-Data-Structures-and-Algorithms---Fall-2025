@@ -1,0 +1,15 @@
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_5_stacks\obj\Debug\net8.0\Assignment5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_5_stacks\obj\Debug\net8.0\Assignment5.AssemblyInfoInputs.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_5_stacks\obj\Debug\net8.0\Assignment5.AssemblyInfo.cs
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_5_stacks\obj\Debug\net8.0\Assignment5.csproj.CoreCompileInputs.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_5_stacks\obj\Debug\net8.0\Assignment5.sourcelink.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_5_stacks\bin\Debug\net8.0\Assignment5.exe
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_5_stacks\bin\Debug\net8.0\Assignment5.deps.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_5_stacks\bin\Debug\net8.0\Assignment5.runtimeconfig.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_5_stacks\bin\Debug\net8.0\Assignment5.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_5_stacks\bin\Debug\net8.0\Assignment5.pdb
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_5_stacks\obj\Debug\net8.0\Assignment5.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_5_stacks\obj\Debug\net8.0\refint\Assignment5.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_5_stacks\obj\Debug\net8.0\Assignment5.pdb
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_5_stacks\obj\Debug\net8.0\Assignment5.genruntimeconfig.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_5_stacks\obj\Debug\net8.0\ref\Assignment5.dll

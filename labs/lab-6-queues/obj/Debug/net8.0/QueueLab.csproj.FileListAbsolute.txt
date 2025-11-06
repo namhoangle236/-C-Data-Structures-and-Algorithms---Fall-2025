@@ -1,0 +1,15 @@
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\lab-6-queues\bin\Debug\net8.0\QueueLab.exe
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\lab-6-queues\bin\Debug\net8.0\QueueLab.deps.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\lab-6-queues\bin\Debug\net8.0\QueueLab.runtimeconfig.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\lab-6-queues\bin\Debug\net8.0\QueueLab.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\lab-6-queues\bin\Debug\net8.0\QueueLab.pdb
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\lab-6-queues\obj\Debug\net8.0\QueueLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\lab-6-queues\obj\Debug\net8.0\QueueLab.AssemblyInfoInputs.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\lab-6-queues\obj\Debug\net8.0\QueueLab.AssemblyInfo.cs
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\lab-6-queues\obj\Debug\net8.0\QueueLab.csproj.CoreCompileInputs.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\lab-6-queues\obj\Debug\net8.0\QueueLab.sourcelink.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\lab-6-queues\obj\Debug\net8.0\QueueLab.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\lab-6-queues\obj\Debug\net8.0\refint\QueueLab.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\lab-6-queues\obj\Debug\net8.0\QueueLab.pdb
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\lab-6-queues\obj\Debug\net8.0\QueueLab.genruntimeconfig.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\lab-6-queues\obj\Debug\net8.0\ref\QueueLab.dll

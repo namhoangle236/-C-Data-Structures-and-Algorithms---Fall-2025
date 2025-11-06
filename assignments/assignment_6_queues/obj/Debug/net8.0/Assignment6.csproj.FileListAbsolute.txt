@@ -1,0 +1,15 @@
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_6_queues\bin\Debug\net8.0\Assignment6.exe
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_6_queues\bin\Debug\net8.0\Assignment6.deps.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_6_queues\bin\Debug\net8.0\Assignment6.runtimeconfig.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_6_queues\bin\Debug\net8.0\Assignment6.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_6_queues\bin\Debug\net8.0\Assignment6.pdb
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_6_queues\obj\Debug\net8.0\Assignment6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_6_queues\obj\Debug\net8.0\Assignment6.AssemblyInfoInputs.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_6_queues\obj\Debug\net8.0\Assignment6.AssemblyInfo.cs
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_6_queues\obj\Debug\net8.0\Assignment6.csproj.CoreCompileInputs.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_6_queues\obj\Debug\net8.0\Assignment6.sourcelink.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_6_queues\obj\Debug\net8.0\Assignment6.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_6_queues\obj\Debug\net8.0\refint\Assignment6.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_6_queues\obj\Debug\net8.0\Assignment6.pdb
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_6_queues\obj\Debug\net8.0\Assignment6.genruntimeconfig.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\assignment_6_queues\obj\Debug\net8.0\ref\Assignment6.dll

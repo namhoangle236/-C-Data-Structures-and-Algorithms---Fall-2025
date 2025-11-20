@@ -1,0 +1,15 @@
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\dev260_week_8_sets_lab\bin\Debug\net8.0\lab-8-sets.exe
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\dev260_week_8_sets_lab\bin\Debug\net8.0\lab-8-sets.deps.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\dev260_week_8_sets_lab\bin\Debug\net8.0\lab-8-sets.runtimeconfig.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\dev260_week_8_sets_lab\bin\Debug\net8.0\lab-8-sets.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\dev260_week_8_sets_lab\bin\Debug\net8.0\lab-8-sets.pdb
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\dev260_week_8_sets_lab\obj\Debug\net8.0\lab-8-sets.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\dev260_week_8_sets_lab\obj\Debug\net8.0\lab-8-sets.AssemblyInfoInputs.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\dev260_week_8_sets_lab\obj\Debug\net8.0\lab-8-sets.AssemblyInfo.cs
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\dev260_week_8_sets_lab\obj\Debug\net8.0\lab-8-sets.csproj.CoreCompileInputs.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\dev260_week_8_sets_lab\obj\Debug\net8.0\lab-8-sets.sourcelink.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\dev260_week_8_sets_lab\obj\Debug\net8.0\lab-8-sets.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\dev260_week_8_sets_lab\obj\Debug\net8.0\refint\lab-8-sets.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\dev260_week_8_sets_lab\obj\Debug\net8.0\lab-8-sets.pdb
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\dev260_week_8_sets_lab\obj\Debug\net8.0\lab-8-sets.genruntimeconfig.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\dev260_week_8_sets_lab\obj\Debug\net8.0\ref\lab-8-sets.dll

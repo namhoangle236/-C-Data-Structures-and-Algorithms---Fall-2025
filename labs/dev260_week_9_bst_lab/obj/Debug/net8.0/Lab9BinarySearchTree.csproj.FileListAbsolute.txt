@@ -1,0 +1,15 @@
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\dev260_week_9_bst_lab\bin\Debug\net8.0\BinarySearchTreeLab.exe
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\dev260_week_9_bst_lab\bin\Debug\net8.0\BinarySearchTreeLab.deps.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\dev260_week_9_bst_lab\bin\Debug\net8.0\BinarySearchTreeLab.runtimeconfig.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\dev260_week_9_bst_lab\bin\Debug\net8.0\BinarySearchTreeLab.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\dev260_week_9_bst_lab\bin\Debug\net8.0\BinarySearchTreeLab.pdb
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\dev260_week_9_bst_lab\obj\Debug\net8.0\Lab9BinarySearchTree.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\dev260_week_9_bst_lab\obj\Debug\net8.0\Lab9BinarySearchTree.AssemblyInfoInputs.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\dev260_week_9_bst_lab\obj\Debug\net8.0\Lab9BinarySearchTree.AssemblyInfo.cs
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\dev260_week_9_bst_lab\obj\Debug\net8.0\Lab9BinarySearchTree.csproj.CoreCompileInputs.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\dev260_week_9_bst_lab\obj\Debug\net8.0\Lab9BinarySearchTree.sourcelink.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\dev260_week_9_bst_lab\obj\Debug\net8.0\BinarySearchTreeLab.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\dev260_week_9_bst_lab\obj\Debug\net8.0\refint\BinarySearchTreeLab.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\dev260_week_9_bst_lab\obj\Debug\net8.0\BinarySearchTreeLab.pdb
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\dev260_week_9_bst_lab\obj\Debug\net8.0\Lab9BinarySearchTree.genruntimeconfig.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\labs\dev260_week_9_bst_lab\obj\Debug\net8.0\ref\BinarySearchTreeLab.dll

@@ -1,0 +1,15 @@
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\dev260_week9_bst_assignment\bin\Debug\net8.0\FileSystemNavigator.exe
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\dev260_week9_bst_assignment\bin\Debug\net8.0\FileSystemNavigator.deps.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\dev260_week9_bst_assignment\bin\Debug\net8.0\FileSystemNavigator.runtimeconfig.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\dev260_week9_bst_assignment\bin\Debug\net8.0\FileSystemNavigator.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\dev260_week9_bst_assignment\bin\Debug\net8.0\FileSystemNavigator.pdb
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\dev260_week9_bst_assignment\obj\Debug\net8.0\FileSystemNavigator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\dev260_week9_bst_assignment\obj\Debug\net8.0\FileSystemNavigator.AssemblyInfoInputs.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\dev260_week9_bst_assignment\obj\Debug\net8.0\FileSystemNavigator.AssemblyInfo.cs
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\dev260_week9_bst_assignment\obj\Debug\net8.0\FileSystemNavigator.csproj.CoreCompileInputs.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\dev260_week9_bst_assignment\obj\Debug\net8.0\FileSystemNavigator.sourcelink.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\dev260_week9_bst_assignment\obj\Debug\net8.0\FileSystemNavigator.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\dev260_week9_bst_assignment\obj\Debug\net8.0\refint\FileSystemNavigator.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\dev260_week9_bst_assignment\obj\Debug\net8.0\FileSystemNavigator.pdb
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\dev260_week9_bst_assignment\obj\Debug\net8.0\FileSystemNavigator.genruntimeconfig.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\assignments\dev260_week9_bst_assignment\obj\Debug\net8.0\ref\FileSystemNavigator.dll

@@ -1,0 +1,15 @@
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\final_project\Gunslinger_Game\bin\Debug\net8.0\Gunslinger_Game.exe
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\final_project\Gunslinger_Game\bin\Debug\net8.0\Gunslinger_Game.deps.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\final_project\Gunslinger_Game\bin\Debug\net8.0\Gunslinger_Game.runtimeconfig.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\final_project\Gunslinger_Game\bin\Debug\net8.0\Gunslinger_Game.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\final_project\Gunslinger_Game\bin\Debug\net8.0\Gunslinger_Game.pdb
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\final_project\Gunslinger_Game\obj\Debug\net8.0\Gunslinger_Game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\final_project\Gunslinger_Game\obj\Debug\net8.0\Gunslinger_Game.AssemblyInfoInputs.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\final_project\Gunslinger_Game\obj\Debug\net8.0\Gunslinger_Game.AssemblyInfo.cs
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\final_project\Gunslinger_Game\obj\Debug\net8.0\Gunslinger_Game.csproj.CoreCompileInputs.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\final_project\Gunslinger_Game\obj\Debug\net8.0\Gunslinger_Game.sourcelink.json
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\final_project\Gunslinger_Game\obj\Debug\net8.0\Gunslinger_Game.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\final_project\Gunslinger_Game\obj\Debug\net8.0\refint\Gunslinger_Game.dll
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\final_project\Gunslinger_Game\obj\Debug\net8.0\Gunslinger_Game.pdb
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\final_project\Gunslinger_Game\obj\Debug\net8.0\Gunslinger_Game.genruntimeconfig.cache
+C:\Users\namho\Desktop\school\DEV-260 Data Structure and Algorithm\final_project\Gunslinger_Game\obj\Debug\net8.0\ref\Gunslinger_Game.dll

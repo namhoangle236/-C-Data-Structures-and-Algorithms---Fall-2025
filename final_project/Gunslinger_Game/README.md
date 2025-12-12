@@ -111,12 +111,12 @@ The default string comparer is used for dictionary keys. Room names are case-sen
 **Normalization:**  
 User input is trimmed to remove leading and trailing whitespace. Room behavior relies on consistent name prefixes (Start, Enemy, Heal, Ammo, Boss, Goal) to trigger the correct logic.
 
-
 ---
 
 ## Credits & AI Disclosure
 
 - Google and ChatGPT is used for reasearch into data flow layout; more specifically, where moving between verticies logic is added. AI were also used to help fix bugs, syntax helps such as string check,and user input mapping structure.
+- AI is also used to edit README and DESIGN.md to be more readable and comprehensive.
 
 
 ## Challenges and Solutions

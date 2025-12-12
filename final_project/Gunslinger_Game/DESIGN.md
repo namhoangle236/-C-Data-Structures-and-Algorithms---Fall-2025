@@ -1,180 +1,136 @@
 # Project Design & Rationale
 
-**Instructions:** Replace prompts with your content. Be specific and concise. If something doesn't apply, write "N/A" and explain briefly.
-
 ---
 
 ## Data Model & Entities
 
 **Core entities:**  
-_List your main entities with key fields, identifiers, and relationships (1–2 lines each)._
 
-**Your Answer:**
+**Entity A: PlayerState**
+- Name: PlayerState
+- Key fields: HP, Chamber (Queue<Bullet>), CurrentRoom
+- Identifiers: CurrentRoom
+- Relationships: Interacts with rooms in the graph and uses bullets during combat
 
-**Entity A:**
-
-- Name:
-- Key fields:
-- Identifiers:
-- Relationships:
-
-**Entity B (if applicable):**
-
-- Name:
-- Key fields:
-- Identifiers:
-- Relationships:
+**Entity B: Bullet**
+- Name: Bullet
+- Key fields: Type, Damage
+- Identifiers: N/A
+- Relationships: Stored in the player's bullet chamber and consumed during fights
 
 **Identifiers (keys) and why they're chosen:**  
-_Explain your choice of keys (e.g., string Id, composite key, case-insensitive, etc.)._
-
-**Your Answer:**
+- Room names (strings) are used as keys because they are easy to read, debug, and reference in a text-based game. Using strings also makes it simple to build custom maps and connect rooms without additional ID systems.
 
 ---
 
 ## Data Structures — Choices & Justification
 
-_List only the meaningful data structures you chose. For each, state the purpose, the role it plays in your app, why it fits, and alternatives considered._
-
 ### Structure #1
 
 **Chosen Data Structure:**  
-_Name the data structure (e.g., Dictionary<string, Customer>)._
-
-**Your Answer:**
+`Dictionary<string, List<string>>` (graph adjacency list)
 
 **Purpose / Role in App:**  
-_What user action or feature does it power?_
-
-**Your Answer:**
+Stores the map. Each room name maps to a list of connected rooms (movement options).
 
 **Why it fits:**  
-_Explain access patterns, typical size, performance/Big-O, memory, simplicity._
-
-**Your Answer:**
+Fast lookup of a room’s neighbors by name, and easy to add edges. Works well for a small-to-medium map.
 
 **Alternatives considered:**  
-_List alternatives (e.g., List<T>, SortedDictionary, custom tree) and why you didn't choose them._
-
-**Your Answer:**
+2D matrix / adjacency matrix (wastes space for sparse graphs), or custom graph classes (more code without added value here).
 
 ---
 
 ### Structure #2
 
 **Chosen Data Structure:**  
-_Name the data structure._
-
-**Your Answer:**
+`Queue<Bullet>`
 
 **Purpose / Role in App:**  
-_What user action or feature does it power?_
-
-**Your Answer:**
+Bullet chamber. Bullets fire in the same order they are loaded (Shoot / Reload / Rapid Fire).
 
 **Why it fits:**  
-_Explain access patterns, typical size, performance/Big-O, memory, simplicity._
-
-**Your Answer:**
+FIFO behavior matches the game rule directly, and enqueue/dequeue are simple and efficient.
 
 **Alternatives considered:**  
-_List alternatives and why you didn't choose them._
-
-**Your Answer:**
+`List<Bullet>` (would need manual index tracking/removal), `Stack<Bullet>` (wrong order).
 
 ---
 
 ### Structure #3
 
 **Chosen Data Structure:**  
-_Name the data structure._
-
-**Your Answer:**
+`List<string>`
 
 **Purpose / Role in App:**  
-_What user action or feature does it power?_
-
-**Your Answer:**
+Stores neighbor lists for each room and supports building custom graphs.
 
 **Why it fits:**  
-_Explain access patterns, typical size, performance/Big-O, memory, simplicity._
-
-**Your Answer:**
+Neighbors are displayed in order, iterated often, and the size is small.
 
 **Alternatives considered:**  
-_List alternatives and why you didn't choose them._
-
-**Your Answer:**
+`HashSet<string>` (no ordering, and not needed unless preventing duplicate neighbors).
 
 ---
 
 ### Additional Structures (if applicable)
 
-_Add more sections if you used additional structures like Queue for workflows, Stack for undo, HashSet for uniqueness, Graph for relationships, BST/SortedDictionary for ordered views, etc._
+**Your Answer:**  
+`enum BulletType` to define bullet categories (Normal/Heavy), and simple classes (`PlayerState`, `Bullet`) to store game state and bullet data.
 
-**Your Answer:**
 
 ---
 
 ## Comparers & String Handling
 
 **Comparer choices:**  
-_Explain what comparers you used and why (e.g., StringComparer.OrdinalIgnoreCase for keys)._
+Default string comparison is used to keep behavior simple and predictable for a console-based project.
 
-**Your Answer:**
+**For keys:**  
+Room names use the default string comparer and are case-sensitive to avoid unexpected matches.
 
-**For keys:**
-
-**For display sorting (if different):**
+**For display sorting (if different):**  
+N/A — room lists are displayed in the order they are added.
 
 **Normalization rules:**  
-_Describe how you normalize strings (trim whitespace, collapse duplicates, canonicalize casing)._
-
-**Your Answer:**
+User input is trimmed to remove leading and trailing whitespace. Room behavior relies on fixed name prefixes (Start, Enemy, Heal, Ammo, Boss, Goal).
 
 **Bad key examples avoided:**  
-_List examples of bad key choices and why you avoided them (e.g., non-unique names, culture-varying text, trailing spaces, substrings that can change)._
+- Auto-generated random IDs, which would make debugging harder in a text-based game.  
+- Keys with trailing spaces, which could cause duplicate or unreachable rooms.  
+- Keys based on display text or dynamic values that could change during gameplay.
 
 ---
 
 ## Performance Considerations
 
 **Expected data scale:**  
-_Describe the expected size of your data (e.g., 100 items, 10,000 items)._
-
-**Your Answer:**
+Small scale. A typical map is around 10–20 rooms with a few connections each, and the bullet chamber is usually under 20 bullets.
 
 **Performance bottlenecks identified:**  
-_List any potential performance issues and how you addressed them._
+No major bottlenecks at this scale. The main loops are simple (movement + combat). Using a dictionary for the map keeps neighbor lookup fast.
 
-**Your Answer:**
-
-**Big-O analysis of core operations:**  
-_Provide time complexity for your main operations (Add, Search, List, Update, Delete)._
-
-**Your Answer:**
-
-- Add:
-- Search:
-- List:
-- Update:
-- Delete:
+**Big-O analysis of core operations:**
+- Add: `AddEdge` is O(1) average to find/create keys, plus O(1) to append neighbor.
+- Search: `GetNeighbors` is O(1) average by room name.
+- List: Showing neighbors is O(n), where n is the number of neighbors.
+- Update: Combat HP updates are O(1); reloading is O(1); rapid fire is O(n) where n is bullets in the chamber.
+- Delete: Shooting (dequeue) is O(1); rapid fire clears the queue in O(n).
 
 ---
 
 ## Design Tradeoffs & Decisions
 
 **Key design decisions:**  
-_Explain major design choices and why you made them._
-
-**Your Answer:**
+- Used an adjacency-list graph (`Dictionary<string, List<string>>`) to represent the map and make movement simple.  
+- Used a queue for bullets so firing order matches how bullets are loaded (FIFO).  
+- Kept `GameLogic` separate from `GameUI` so game rules are not mixed with printing and input.
 
 **Tradeoffs made:**  
-_Describe any tradeoffs between simplicity vs performance, memory vs speed, etc._
-
-**Your Answer:**
+- Kept room names case-sensitive and simple instead of adding more complex validation or comparers.  
+- Custom map builder is flexible, but it does not guarantee the map is winnable.
 
 **What you would do differently with more time:**  
-_Reflect on what you might change or improve._
-
-**Your Answer:**
+- Add validation to ensure a custom map has a reachable Goal room.  
+- Add save/load and better map visualization.  
+- Add more enemy/bullet types and balance the combat system.

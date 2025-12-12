@@ -114,13 +114,13 @@ namespace Gunslinger_Game
             Console.WriteLine("Room types:");
             Console.WriteLine("1) Start  2) Enemy  3) Ammo  4) Heal  5) Boss  6) Goal");
             Console.WriteLine("RULES:");
+            Console.WriteLine("   >!  FIRST ROOM MUST BE 'START' TYPE  !<  ");
+            Console.WriteLine(">! MUST ADD GOAL ROOM TYPE TO REACH END SCREEN !<");
             Console.WriteLine("You may add a suffix to differentiate rooms (Enemy1, Heal-A, AmmoDeposit1 etc.)");
-            Console.WriteLine("First, the Start room will be created automatically.");
             Console.WriteLine("If you use the same name for FROM and TO, it will create a self-loop.");
             Console.WriteLine("If you use the same name for different rooms, they will be treated as the same room.");
             Console.WriteLine("-----------------------------------");
 
-            GameLogic.AddVertex(CustomGraph, "Start");
 
             while (true)
             {
@@ -130,12 +130,26 @@ namespace Gunslinger_Game
                 Console.Write("Choose: ");
 
                 string choice = Console.ReadLine() ?? "";
+
                 if (choice == "2")
                     break;
+
+                if (choice != "1")
+                {
+                    Console.WriteLine("Invalid choice. Enter 1 or 2.");
+                    continue;
+                }
 
                 // FROM
                 Console.WriteLine("Choose FROM room type (1-6):");
                 string fromType = Console.ReadLine() ?? "";
+
+                if (fromType != "1" && fromType != "2" && fromType != "3" &&
+                    fromType != "4" && fromType != "5" && fromType != "6")
+                {
+                    Console.WriteLine("Invalid FROM room type. Enter 1–6.");
+                    continue;
+                }
 
                 Console.Write("FROM suffix (optional): ");
                 string fromSuffix = Console.ReadLine() ?? "";
@@ -143,6 +157,13 @@ namespace Gunslinger_Game
                 // TO
                 Console.WriteLine("Choose TO room type (1-6):");
                 string toType = Console.ReadLine() ?? "";
+
+                if (toType != "1" && toType != "2" && toType != "3" &&
+                    toType != "4" && toType != "5" && toType != "6")
+                {
+                    Console.WriteLine("Invalid TO room type. Enter 1–6.");
+                    continue;
+                }
 
                 Console.Write("TO suffix (optional): ");
                 string toSuffix = Console.ReadLine() ?? "";

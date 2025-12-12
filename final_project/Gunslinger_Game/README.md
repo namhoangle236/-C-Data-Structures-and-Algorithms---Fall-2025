@@ -1,32 +1,25 @@
-# Project Title
+# Gunslinger text-based game
 
-> One-sentence summary of what this app does and who it's for.
+> A simple text based turn based action game where you can choose your own path; while also allowing user to create their own map with predefined room types
 
 ---
 
 ## What I Built (Overview)
 
 **Problem this solves:**  
-_Explain the real-world task your app supports and why it's useful (2–4 sentences)._
-
-**Your Answer:**
+- This game demonstrates how graphs, queues, list, and game state can be used together to model player choices and progression. It also allows users to experiment by building their own maps to better understand graph connections.
 
 **Core features:**  
-_List the main features your application provides (Add, Search, List, Update, Delete, etc.)_
+- Graph-based map navigation (rooms connected as vertices and edges)  
+- Turn-based combat with a bullet queue system  
+- Multiple room types with different effects (Enemy, Heal, Ammo, Boss, Goal)  
+- Custom map builder using predefined room types
 
-**Your Answer:**
-
--
--
--
--
-
-## How to Run
-
-**Requirements:**  
-_List required .NET version, OS requirements, and any dependencies._
-
-**Your Answer:**
+## How to Run 
+- Clone the project
+- Install .NET SDK 8.0
+- Navigate to the project folder
+- Run `dotnet run` in the terminal
 
 ```bash
 git clone <your-repo-url>
@@ -35,183 +28,134 @@ dotnet build
 ```
 
 **Run:**  
-_Provide the command to run your application._
-
-**Your Answer:**
-
 ```bash
 dotnet run
 ```
 
 **Sample data (if applicable):**  
-_Describe where sample data lives and how to load it (e.g., JSON file path, CSV import)._
+- A premade map is in GameLogic.cs along with the commemted visualization
 
-**Your Answer:**
-
----
 
 ## Using the App (Quick Start)
 
 **Typical workflow:**  
-_Describe the typical user workflow in 2–4 steps._
-
-**Your Answer:**
-
-1.
-2.
-3.
-4.
+1. Launch the game and choose to play a premade map or create a custom map.  
+2. Navigate between rooms by selecting connected paths in the map.  
+3. Engage in turn-based combat or interact with special rooms (Heal, Ammo, Boss).  
+4. Reach a Goal room to win or lose if your HP reaches zero.
 
 **Input tips:**  
-_Explain case sensitivity, required fields, and how common errors are handled gracefully._
-
-**Your Answer:**
-
----
+- For custom map maker, READ the RULES!
 
 ## Data Structures (Brief Summary)
 
-> Full rationale goes in **DESIGN.md**. Here, list only what you used and the feature it powers.
+> Full rationale is in **DESIGN.md**.
 
 **Data structures used:**  
-_List each data structure and briefly explain what feature it powers._
-
-**Your Answer:**
-
-- `Dictionary<...>` →
-- `List<...>` →
-- `HashSet<...>` →
-- _(Add others: Queue, Stack, SortedDictionary, custom BST/Graph, etc.)_
+- `Dictionary<string, List<string>>` → Represents the game map as a graph, where rooms are vertices and paths are edges.
+- `List<string>` → Stores neighboring rooms and user-created room connections.
+- `Queue<Bullet>` → Models the bullet chamber so bullets fire in the order they are loaded (FIFO).
+- `Enum (BulletType)` → Defines different bullet types with distinct behaviors.
+- `Custom classes (PlayerState, Bullet)` → Store and manage game state and bullet data.
 
 ---
 
 ## Manual Testing Summary
 
-> No unit tests required. Show how you verified correctness with 3–5 test scenarios.
+**Test scenarios:**
 
-**Test scenarios:**  
-_Describe each test scenario with steps and expected results._
-
-**Your Answer:**
-
-**Scenario 1: [Name]**
-
+**Scenario 1: Premade Map Playthrough**
 - Steps:
+  - Start the game and choose the premade map.
+  - Move through connected rooms and engage in combat.
+  - Reach the Goal room.
 - Expected result:
+  - Player moves correctly between rooms, combat resolves properly, and the game ends with a win message.
 - Actual result:
+  - Game behaved as expected and ended when the Goal room was reached.
 
-**Scenario 2: [Name]**
-
+**Scenario 2: Bullet Queue Order**
 - Steps:
+  - Enter an Enemy room with multiple bullets loaded.
+  - Fire bullets one by one.
 - Expected result:
+  - Bullets fire in the order they were added to the chamber and deal correct damage.
 - Actual result:
+  - Bullets fired in FIFO order and damage values were applied correctly.
 
-**Scenario 3: [Name]**
-
+**Scenario 3: Custom Map Creation**
 - Steps:
+  - Choose the custom map option.
+  - Add valid edges using predefined room types.
+  - Play through the custom map.
 - Expected result:
+  - Custom map builds successfully and gameplay follows the user-defined paths.
 - Actual result:
+  - Custom map loaded correctly and gameplay followed the created structure.
 
-**Scenario 4: [Name] (optional)**
-
-- Steps:
-- Expected result:
-- Actual result:
-
-**Scenario 5: [Name] (optional)**
-
-- Steps:
-- Expected result:
-- Actual result:
 
 ---
 
 ## Known Limitations
 
-**Limitations and edge cases:**  
-_Describe any edge cases not handled, performance caveats, or known issues._
-
-**Your Answer:**
-
--
--
+**Limitations and edge cases:**
+- Custom maps are not validated to guarantee a reachable Goal room.
+- Room names are user-defined, so duplicate or poorly structured maps are possible.
+- No save/load system; the game must be played in one session.
 
 ## Comparers & String Handling
 
 **Keys comparer:**  
-_Describe what string comparer you used (e.g., StringComparer.OrdinalIgnoreCase) and why._
-
-**Your Answer:**
+The default string comparer is used for dictionary keys. Room names are case-sensitive, which keeps behavior simple and predictable for this project.
 
 **Normalization:**  
-_Explain how you normalize strings (trim whitespace, consistent casing, duplicate checks)._
+User input is trimmed to remove leading and trailing whitespace. Room behavior relies on consistent name prefixes (Start, Enemy, Heal, Ammo, Boss, Goal) to trigger the correct logic.
 
-**Your Answer:**
 
 ---
 
 ## Credits & AI Disclosure
 
-**Resources:**  
-_List any articles, documentation, or code snippets you referenced or adapted._
+- Google and ChatGPT is used for reasearch into data flow layout; more specifically, where moving between verticies logic is added. AI were also used to help fix bugs, syntax helps such as string check,and user input mapping structure.
 
-**Your Answer:**
-
--
-- **AI usage (if any):**  
-   _Describe what you asked AI tools, what code they influenced, and how you verified correctness._
-
-  **Your Answer:**
-
-  ***
 
 ## Challenges and Solutions
 
-**Biggest challenge faced:**  
-_Describe the most difficult part of the project - was it choosing the right data structures, implementing search functionality, handling edge cases, designing the user interface, or understanding a specific algorithm?_
-
-**Your Answer:**
-
-**How you solved it:**  
-_Explain your solution approach and what helped you figure it out - research, consulting documentation, debugging with breakpoints, testing with simple examples, refactoring your design, etc._
-
-**Your Answer:**
+**Biggest challenge faced, and how I solved it:**  
+- Figuring out where to implement the verticies traverse logic, I initially want to have them in GameLogic.cs; but it's much better to have them in GameUI, as it perform the traverse prompt after the vertex's logic finish running.
+- Validating user input and map them to pass in correct vertex's name. I first only rely on user's entry for the entire vertex name, but it comes with a lot of string check logic; so I decided to limit the user to a few choices, displaying error for anything else aside from those choices. This makes it easier to control user's input, but also make it more tedious for the user to create verticies edges.
 
 **Most confusing concept:**  
-_What was hardest to understand about data structures, algorithm complexity, key comparers, normalization, or organizing your code architecture?_
-
-**Your Answer:**
+- N/A, the concepts I used in this assignment are the ones that I know well, the only difficulties comes from unfaamiliar syntax, mostly related to input and string check operations, as well as mapping them to pass in correct verticies names
 
 ## Code Quality
 
 **What you're most proud of in your implementation:**  
-_Highlight the best aspect of your code - maybe your data structure choices, clean architecture, efficient algorithms, intuitive user interface, thorough error handling, or elegant solution to a complex problem._
+- Implementation of rapid fire (consume all bullet to deal massive damage); and the ability to make your own map, albeit lacaking in clarity and fluidity
 
-**Your Answer:**
+
 
 **What you would improve if you had more time:**  
-_Identify areas for potential improvement - perhaps adding more features, optimizing performance, improving error handling, adding data persistence, refactoring for better maintainability, or enhancing the user experience._
+- I had plan for real time magazine bullet consumtion and fire effect display (with text), but left it out to focus more on the core functionality and bug fixing
+- I would also implement a way for user to create their own custom Vertex type (still based on the predefined room type) with modified numbers
+- Custom grahp visualization (The big fish! could be another project of its own.)
 
 **Your Answer:**
 
 ## Real-World Applications
 
 **How this relates to real-world systems:**  
-_Describe how your implementation connects to actual software systems - e.g., inventory management, customer databases, e-commerce platforms, social networks, task managers, or other applications in the industry._
-
-**Your Answer:**
+- This project is similar to real systems that use graphs and queues, such as navigation systems, workflow engines, and game state management. The custom map builder is comparable to tools that let users define processes or routes.
 
 **What you learned about data structures and algorithms:**  
-_What insights did you gain about choosing appropriate data structures, performance tradeoffs, Big-O complexity in practice, the importance of good key design, or how data structures enable specific features?_
-
-**Your Answer:**
+- I learned how choosing the right data structure makes features easier to implement, such as using a queue for ordered actions and a dictionary for fast lookups. This project also showed how data structures work together to support real application behavior.
 
 ## Submission Checklist
 
-- [ ] Public GitHub repository link submitted
-- [ ] README.md completed (this file)
-- [ ] DESIGN.md completed
-- [ ] Source code included and builds successfully
-- [ ] (Optional) Slide deck or 5–10 minute demo video link (unlisted)
+- [✔️] Public GitHub repository link submitted
+- [✔️] README.md completed (this file)
+- [✔️] DESIGN.md completed
+- [✔️] Source code included and builds successfully
+- [] (Optional) Slide deck or 5–10 minute demo video link (unlisted)
 
 **Demo Video Link (optional):**

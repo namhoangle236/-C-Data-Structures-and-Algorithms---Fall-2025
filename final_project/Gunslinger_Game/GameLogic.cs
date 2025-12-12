@@ -156,7 +156,7 @@ namespace Gunslinger_Game
             PlayerState player = new PlayerState();
 
             // Start with 1 normal bullet
-            player.Chamber.Enqueue(new Bullet(BulletType.Normal, 2));
+            player.Chamber.Enqueue(new Bullet(BulletType.Normal, 2));       // Already enqueued 6 normal bullets in PlayerState definition, this here just an extra one to start with 7 total
 
             return player;
         }
